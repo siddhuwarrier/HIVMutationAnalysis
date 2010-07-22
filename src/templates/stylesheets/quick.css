@@ -1,0 +1,143 @@
+*{
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+html, body{
+background:none repeat scroll 0 0 #EBE5D9;
+color:#000000;
+}
+#header {
+font-family:calibri,arial,sans-serif;
+padding:1em;
+}
+#intro
+{
+font-family:calibri,arial,sans-serif;
+padding:1em;
+background:none repeat scroll 0 0 #F7F4EE;
+border-top:1px solid #FFFFFF;
+}
+#content{
+background:none repeat scroll 0 0 #FFFFFF;
+}
+#content_table
+{
+background:none repeat scroll 0 0 #FFFFFF;
+font-family:arial,sans-serif;
+margin:0 auto;
+min-width:700px;
+overflow:auto;
+padding:1em;
+width:60%;
+}
+ul  {
+clear:both;
+overflow:auto;
+}
+ul li {
+float:left;
+}
+li {
+padding-right:1em;
+}
+h1{
+color:#000000;
+font-size:150%;
+}
+
+#header a, #meta a, #intro a{
+color:#523A0B;
+text-decoration:underline;
+}
+#loadFile tbody th,
+#loadFile td {
+padding:0.25em 0.5em;
+text-align:left;
+vertical-align:top;
+}
+#loadFile tbody td,
+#loadFile tbody th {
+border:1px solid #fff;
+border-width:1px 0;
+width:10%;
+}
+/*
+Coffee with milk
+Table design by Roger Johansson, 456 Berea Street
+www.456bereastreet.com
+================================================*/
+table {
+font:normal 76%/150% "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+border-collapse:separate;
+border-spacing:0;
+margin:0 0 1em;
+color:#000;
+}
+#content_table table a {
+color:#523A0B;
+text-decoration:none;
+border-bottom:1px dotted;
+}
+#content_table table a:visited {
+color:#444;
+font-weight:normal;
+}
+#content_table table a:visited:after {
+content:"\00A0\221A";
+}
+#content_table table a:hover {
+border-bottom-style:solid;
+}
+thead th,
+thead td,
+tfoot th,
+tfoot td {
+border:1px solid #523A0B;
+border-width:1px 0;
+background:#EBE5D9;
+}
+th {
+font-weight:bold;
+line-height:normal;
+padding:0.25em 0.5em;
+text-align:center;
+}
+#content_table tbody th,
+#content_table td {
+padding:0.25em 0.5em;
+text-align:center;
+vertical-align:top;
+}
+tbody th {
+font-weight:normal;
+white-space:nowrap;
+}
+#content_table tbody th a:link,
+#content_table tbody th a:visited {
+font-weight:bold;
+}
+#content_table tbody td,
+#content_table tbody th {
+border:1px solid #fff;
+border-width:1px 0;
+width:15%;
+}
+#content_table tbody tr.odd th,
+#content_table tbody tr.odd td {
+border-color:#EBE5D9;
+background:#F7F4EE;
+}
+#content_table tbody tr:hover td,
+#content_table tbody tr:hover th {
+background:#ffffee;
+border-color:#523A0B;
+}
+#content_table caption {
+font-weight:bold;
+font-size:1.6em;
+text-align:center;
+margin:0;
+padding:0.5em 0.25em;
+}
+

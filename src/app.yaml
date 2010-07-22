@@ -1,0 +1,19 @@
+application: hivmutationanalysis
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: templates/stylesheets
+  
+- url: /
+  script: WelcomeScreen.py
+  #use secure login
+  login: required
+  secure: always
+- url: /process
+  script: WelcomeScreen.py
+  #use secure login
+  login: required
+  secure: always  

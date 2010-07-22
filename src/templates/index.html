@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Nucleotide Codon Positional Analysis (Early Pre-Alpha of HIV Mutation Analysis)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--  css foo -->
+<link type="text/css" rel="stylesheet" href="/stylesheets/quick.css" />
+</head>
+<body>
+<div id="header">
+<h1>Positional Codon Analysis </h1>
+</div>
+
+<div id="content">
+
+<div id="intro">
+<p>
+<b>Hello, {{ user.nickname }},</b>
+</p>
+<p>
+This program allows you (at the moment) to specify the codons you wish to see from a FASTA file.
+It will then show you the protein in the corresponding codon positions. This is an early release
+of a more complex project that will additionally allow you to analyse HIV drug resistance mutations.
+<i>You are presently required to enter codon positions separated by commas.</i>
+</p>
+</div> 
+
+<form method="POST" action="/process" enctype="multipart/form-data">
+<div id="loadFile">
+<table>
+<tr>
+	<td>
+	Path to FASTA file:
+	</td>
+	<td>
+	<input type="file" name="fastaFile" />
+	</td>
+</tr>
+
+<tr>
+	<td>
+	 Codon Positions to Analyze (separated by commas):
+	</td>
+	<td>
+	<input type="TEXT" name="codonPositions" size="20">
+	</td>
+</tr>
+
+<tr>
+	<td>
+	<!--  empty -->
+	</td>
+	<td>
+	<input type="submit" value="Perform Positional Analysis">
+	</td>
+</tr>
+
+</table>
+</div> <!--  end content table -->
+</FORM>
+</div>
+
+</body>
+</html>
